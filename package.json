@@ -1,24 +1,25 @@
 {
-  "name": "portfolio",
+  "name": "starter-for-nextjs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.3.4"
+    "@appwrite.io/pink-icons": "^1.0.0",
+    "@tailwindcss/postcss": "^4.0.14",
+    "appwrite": "^16.1.0",
+    "next": "^14.2.30",
+    "postcss": "^8.5.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "tailwindcss": "^4.0.14"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4"
+    "prettier": "3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11"
   }
 }
