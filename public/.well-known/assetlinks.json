@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common:handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.tontiz.mobile.app",
+      "sha256_cert_fingerprints": [
+        "E7:0B:D8:47:34:0D:4A:88:A1:02:6F:68:1D:E5:CC:CF:C9:65:F9:4C:2C:A8:D6:6C:AC:D1:64:61:A5:0E:E2:5A"
+      ]
+    }
+  }
+]
